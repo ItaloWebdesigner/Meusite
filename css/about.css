@@ -1,0 +1,30 @@
+.container-about{
+    text-align: center;
+    margin-top: 60px;
+}
+.container-about .title-about{
+    font-size: 40px;
+    width: 100%;
+    height: auto;
+    color: white;
+}
+.container-about .content-about{
+    height: auto;
+    display: grid;
+    margin-top: 40px;
+}
+.container-about .content-about .img{
+    border-radius: 4px;
+    transition: .4s;
+    text-align: center;
+}
+.container-about .content-about .img:hover{
+    transform: scale(105%);
+    transition: .4s;
+}
+.container-about .content-about .text{
+    color: white;
+}
+.container-about .content-about .btn .fa{
+    font-size: 28px;
+}
