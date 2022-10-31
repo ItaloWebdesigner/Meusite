@@ -45,7 +45,7 @@ html{
     background: -webkit-linear-gradient(to right, rgb(138, 43, 226), rgb(15, 174, 214) 100% ); 
 	width: 100%;
 	height: 4px;
-	border-radius: 10px;
+	border-radius: 2%;
 	transition: .5s;
 }
 

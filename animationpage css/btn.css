@@ -22,7 +22,7 @@
     padding: 10px 35px;
     border: 2px solid blueviolet;
     overflow: hidden;
-    transition: .5s ease;
+    transition: 1s ease;
     position: relative;
 }
 .container-btn .content-btn .btn::before{
@@ -35,21 +35,21 @@
     height: 100%;
     background-color: blueviolet;
     z-index: -1;
-    transition: .7s ease;
+    transition: 1s ease;
 }
 .container-btn .content-btn .btn1::before{
     width: 0;
     height: 100%;
 }
 .container-btn .content-btn .btn1:hover::before{
-    width: 110%;
+    width: 300%;
 }
 .container-btn .content-btn .btn2::before{
     width: 110%;
     height: 0;
 }
 .container-btn .content-btn .btn2:hover::before{
-    height: 110%;
+    height: 300%;
 }
 .container-btn .content-btn .btn3::before{
     width: 110%;
@@ -57,7 +57,7 @@
     transform: translate(-50%, -50%) rotate(45deg);
 }
 .container-btn .content-btn .btn3:hover::before{
-    height: 400%;
+    height: 800%;
 }
 .container-btn .content-btn .btn4::before{
     width: 110%;
@@ -65,5 +65,5 @@
     transform: translate(-50%, -50%) rotate(-45deg);
 }
 .container-btn .content-btn .btn4:hover::before{
-    height: 400%;
+    height: 800%;
 }

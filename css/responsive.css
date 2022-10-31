@@ -1,10 +1,10 @@
 /* nav */
-@media screen and (min-width:1000px) {
+@media screen and (min-width:1070px) {
     #container-burger{
         display: none;
     }
     .menu{
-        grid-template-columns: 40% auto auto auto auto auto;
+        grid-template-columns: 42% auto auto auto auto auto;
         width: 100%;
         height: auto;
     }
@@ -12,13 +12,30 @@
         padding: 26px 0px;
     }
     .menu .text{
-        padding: 5px 20px;
+        padding: 5px 0px;
     }
     .container-logo{
         width: 30%;
     }
+    .menu .text::after{
+        content: " ";
+        width: 0%;
+        height: 4px;
+        background: -webkit-linear-gradient(left, rgb(138, 43, 226) 10%, rgb(15, 174, 214) 100%);  
+        background: -webkit-linear-gradient(to right, rgb(138, 43, 226), rgb(15, 174, 214) 100% ); 
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        transition: .5s;
+        border-radius: 1px;
+    }
+    .menu .text:hover::after{
+        width: 102%;
+        border-radius: 1px;
+        transition: .5s;
+    }
 }
-@media screen and (max-width:999px) and (min-width:830px) {
+@media screen and (max-width:1069px) and (min-width:830px) {
     .container-logo{
         background-color: rgb(34, 34, 34);
         width: 100%;
@@ -28,7 +45,7 @@
     }
     .menu{
         padding-top: 135px;
-        width: 25%;
+        width: 30%;
         height: 100vh;
         grid-template-columns: 100%;
         grid-template-rows: 0% auto auto auto auto auto;
@@ -53,6 +70,18 @@
     input[type="checkbox"]:checked ~ .menu {
         transform: translate(0% , 1.2%);
         transition: .5s ease-in-out;
+    }
+    .menu .text::after{
+        content: " ";
+        width: 100%;
+        height: 4px;
+        transform: scaleX(50%);
+        background: -webkit-linear-gradient(left, rgb(138, 43, 226) 10%, rgb(15, 174, 214) 100%);  
+        background: -webkit-linear-gradient(to right, rgb(138, 43, 226), rgb(15, 174, 214) 100% ); 
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        border-radius: 1px;
     }
 }
 @media screen and (max-width:829px) and (min-width:550px) {
@@ -65,7 +94,7 @@
     }
     .menu{
         padding-top: 135px;
-        width: 40%;
+        width: 42%;
         height: 100vh;
         grid-template-columns: 100%;
         grid-template-rows: 0% auto auto auto auto auto;
@@ -90,6 +119,18 @@
     input[type="checkbox"]:checked ~ .menu {
         transform: translate(0% , 1.2%);
         transition: .5s ease-in-out;
+    }
+    .menu .text::after{
+        content: " ";
+        width: 100%;
+        height: 4px;
+        transform: scaleX(50%);
+        background: -webkit-linear-gradient(left, rgb(138, 43, 226) 10%, rgb(15, 174, 214) 100%);  
+        background: -webkit-linear-gradient(to right, rgb(138, 43, 226), rgb(15, 174, 214) 100% ); 
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        border-radius: 1px;
     }
 }
 @media screen and (max-width:549px) and (min-width:430px) {
@@ -102,7 +143,7 @@
     }
     .menu{
         padding-top: 135px;
-        width: 50%;
+        width: 52%;
         height: 100vh;
         grid-template-columns: 100%;
         grid-template-rows: 0% auto auto auto auto auto;
@@ -127,6 +168,18 @@
     input[type="checkbox"]:checked ~ .menu {
         transform: translate(0% , 1.2%);
         transition: .5s ease-in-out;
+    }
+    .menu .text::after{
+        content: " ";
+        width: 100%;
+        height: 4px;
+        transform: scaleX(50%);
+        background: -webkit-linear-gradient(left, rgb(138, 43, 226) 10%, rgb(15, 174, 214) 100%);  
+        background: -webkit-linear-gradient(to right, rgb(138, 43, 226), rgb(15, 174, 214) 100% ); 
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        border-radius: 1px;
     }
 }
 @media screen and (max-width:429px) and (min-width:375px) {
@@ -139,7 +192,7 @@
     }
     .menu{
         padding-top: 135px;
-        width: 60%;
+        width: 62%;
         height: 100vh;
         grid-template-columns: 100%;
         grid-template-rows: 0% auto auto auto auto auto;
@@ -164,6 +217,18 @@
     input[type="checkbox"]:checked ~ .menu {
         transform: translate(0% , 1.2%);
         transition: .5s ease-in-out;
+    }
+    .menu .text::after{
+        content: " ";
+        width: 100%;
+        height: 4px;
+        transform: scaleX(50%);
+        background: -webkit-linear-gradient(left, rgb(138, 43, 226) 10%, rgb(15, 174, 214) 100%);  
+        background: -webkit-linear-gradient(to right, rgb(138, 43, 226), rgb(15, 174, 214) 100% ); 
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        border-radius: 1px;
     }
 }
 @media screen and (max-width:374px) and (min-width:300px) {
@@ -176,7 +241,7 @@
     }
     .menu{
         padding-top: 135px;
-        width: 70%;
+        width: 72%;
         height: 100vh;
         grid-template-columns: 100%;
         grid-template-rows: 0% auto auto auto auto auto;
@@ -201,6 +266,18 @@
     input[type="checkbox"]:checked ~ .menu {
         transform: translate(0% , 1.2%);
         transition: .5s ease-in-out;
+    }
+    .menu .text::after{
+        content: " ";
+        width: 100%;
+        height: 4px;
+        transform: scaleX(50%);
+        background: -webkit-linear-gradient(left, rgb(138, 43, 226) 10%, rgb(15, 174, 214) 100%);  
+        background: -webkit-linear-gradient(to right, rgb(138, 43, 226), rgb(15, 174, 214) 100% ); 
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        border-radius: 1px;
     }
 }
 @media screen and (min-width:600px) {
@@ -569,6 +646,9 @@
     .container-footer .content{
         transform: scale(100%);
      }
+     .container-footer .content .name1{
+        margin-top: 10px;
+    }
 }
 @media screen and (max-width:1049px) and (min-width:1000px) {
     .container-footer .content{
@@ -576,6 +656,9 @@
      }
      .container-footer{
         grid-template-columns: 33.3% 33.3% 33.4%;
+    }
+    .container-footer .content .name1{
+        margin-top: 10px;
     }
 }
 @media screen and (max-width:999px) and (min-width:300px) {
@@ -586,10 +669,16 @@
      .container-footer{
         grid-template-columns: 100%;
     }
+    .container-footer .content .name1{
+        margin-top: 0;
+    }
 }
 @media screen and (max-width:350px) and (min-width:300px) {
     .container-footer .content{
        transform: scale(80%);
+    }
+    .container-footer .content .name1{
+        margin-top: 0;
     }
 }
 @media screen and (min-width:430px) {
@@ -662,6 +751,22 @@
         transform: scaleX(12%);
         transition: .5s;
     }
+    .container-btn:hover .bar{
+        transform: scaleX(12%);
+        transition: .5s;
+    }
+    .container-headers:hover .bar{
+        transform: scaleX(12%);
+        transition: .5s;
+    }
+    .container-borders:hover .bar{
+        transform: scaleX(12%);
+        transition: .5s;
+    }
+    .container-others:hover .bar{
+        transform: scaleX(12%);
+        transition: .5s;
+    }
 }
 @media screen and (max-width:849px) and (min-width:600px) {
     .bar{
@@ -680,6 +785,22 @@
         transition: .5s;
     }
     .container-skill:hover .bar{
+        transform: scaleX(16%);
+        transition: .5s;
+    }
+    .container-btn:hover .bar{
+        transform: scaleX(16%);
+        transition: .5s;
+    }
+    .container-headers:hover .bar{
+        transform: scaleX(16%);
+        transition: .5s;
+    }
+    .container-borders:hover .bar{
+        transform: scaleX(16%);
+        transition: .5s;
+    }
+    .container-others:hover .bar{
         transform: scaleX(16%);
         transition: .5s;
     }
@@ -704,6 +825,22 @@
         transform: scaleX(20%);
         transition: .5s;
     }
+    .container-btn:hover .bar{
+        transform: scaleX(20%);
+        transition: .5s;
+    }
+    .container-headers:hover .bar{
+        transform: scaleX(20%);
+        transition: .5s;
+    }
+    .container-borders:hover .bar{
+        transform: scaleX(20%);
+        transition: .5s;
+    }
+    .container-others:hover .bar{
+        transform: scaleX(20%);
+        transition: .5s;
+    }
 }
 @media screen and (max-width:499px) and (min-width:400px) {
     .bar{
@@ -725,6 +862,22 @@
         transform: scaleX(22%);
         transition: .5s;
     }
+    .container-btn:hover .bar{
+        transform: scaleX(22%);
+        transition: .5s;
+    }
+    .container-headers:hover .bar{
+        transform: scaleX(22%);
+        transition: .5s;
+    }
+    .container-borders:hover .bar{
+        transform: scaleX(22%);
+        transition: .5s;
+    }
+    .container-others:hover .bar{
+        transform: scaleX(22%);
+        transition: .5s;
+    }
 }
 @media screen and (max-width:399px) and (min-width:300px) {
     .bar{
@@ -743,6 +896,22 @@
         transition: .5s;
     }
     .container-skill:hover .bar{
+        transform: scaleX(24%);
+        transition: .5s;
+    }
+    .container-btn:hover .bar{
+        transform: scaleX(24%);
+        transition: .5s;
+    }
+    .container-headers:hover .bar{
+        transform: scaleX(24%);
+        transition: .5s;
+    }
+    .container-borders:hover .bar{
+        transform: scaleX(24%);
+        transition: .5s;
+    }
+    .container-others:hover .bar{
         transform: scaleX(24%);
         transition: .5s;
     }
