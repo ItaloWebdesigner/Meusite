@@ -1,4 +1,24 @@
 /* nav */
+@media screen and (min-height:510px) {
+    .header{
+        height: 100vh;
+    }
+}
+@media screen and (max-height:509px) and (min-width:350px) {
+    .header{
+        height: 150vh;
+    }
+}
+@media screen and (max-height:349px) and (min-width:260px) {
+    .header{
+        height: 200vh;
+    }
+}
+@media screen and (max-height:259px) and (min-width:200px) {
+    .header{
+        height: 250vh;
+    }
+}
 @media screen and (min-width:1070px) {
     #container-burger{
         display: none;
@@ -44,11 +64,10 @@
         display: block;
     }
     .menu{
-        padding-top: 135px;
         width: 30%;
         height: 100vh;
         grid-template-columns: 100%;
-        grid-template-rows: 0% auto auto auto auto auto;
+        grid-template-rows: 20% auto auto auto auto auto;
         position: fixed;
         transform: translate(-105%, 1.2%);
         background-color: rgb(34, 34, 34);
@@ -93,11 +112,10 @@
         display: block;
     }
     .menu{
-        padding-top: 135px;
         width: 42%;
         height: 100vh;
         grid-template-columns: 100%;
-        grid-template-rows: 0% auto auto auto auto auto;
+        grid-template-rows: 20% auto auto auto auto auto;
         position: fixed;
         transform: translate(-105%, 1.2%);
         background-color: rgb(34, 34, 34);
@@ -142,11 +160,10 @@
         display: block;
     }
     .menu{
-        padding-top: 135px;
         width: 52%;
         height: 100vh;
         grid-template-columns: 100%;
-        grid-template-rows: 0% auto auto auto auto auto;
+        grid-template-rows: 20% auto auto auto auto auto;
         position: fixed;
         transform: translate(-105%, 1.2%);
         background-color: rgb(34, 34, 34);
@@ -191,11 +208,10 @@
         display: block;
     }
     .menu{
-        padding-top: 135px;
         width: 62%;
         height: 100vh;
         grid-template-columns: 100%;
-        grid-template-rows: 0% auto auto auto auto auto;
+        grid-template-rows: 20% auto auto auto auto auto;
         position: fixed;
         transform: translate(-105%, 1.2%);
         background-color: rgb(34, 34, 34);
@@ -240,11 +256,10 @@
         display: block;
     }
     .menu{
-        padding-top: 135px;
         width: 72%;
         height: 100vh;
         grid-template-columns: 100%;
-        grid-template-rows: 0% auto auto auto auto auto;
+        grid-template-rows: 20% auto auto auto auto auto;
         position: fixed;
         transform: translate(-105%, 1.2%);
         background-color: rgb(34, 34, 34);
