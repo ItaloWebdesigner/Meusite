@@ -1,0 +1,20 @@
+.container-logo-design .container-title .title{
+    font-size: 40px;
+    width: 100%;
+    height: auto;
+    color: white;
+}
+.container-logo-design .container-content{
+    width: 90%;
+    height: auto;
+    display: grid;
+    margin-top: 30px;
+}
+.container-logo-design .container-content .content{
+    margin: 20px;
+}
+.container-logo-design .container-content .content .img{
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}

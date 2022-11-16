@@ -1,0 +1,78 @@
+.container-skill .title-skill{
+    font-size: 40px;
+    width: 100%;
+    height: auto;
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+}
+.container-skill .text-skill{
+    font-size: 25px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    color: white;
+    padding: 0px 10px;
+}
+.content-skill{
+    background-color: rgb(31, 31, 31);
+    border-radius: 4px;
+    width: 85%;
+    height: auto;
+    transform: translateX(9%);
+    margin-top: 40px;
+}
+.content-skill .skill{
+    margin: 28px 0px;
+    transform: translateY(-5%);
+}
+.content-skill .skill .skill-name{
+    font-size: 20px;
+    margin-bottom: 5px;
+    text-align: left;
+    color: white;
+}
+.content-skill .skill .skill-bar{
+    height: 15px;
+    background-color: rgb(161, 161, 161);
+    border-radius: 4px;
+}
+.content-skill .skill .skill-bar .skill-per{
+    height: 15px;
+    background: -webkit-linear-gradient(left, rgb(138, 43, 226) 10%, rgb(15, 174, 214) 100%);  
+    background: -webkit-linear-gradient(to right, rgb(138, 43, 226), rgb(15, 174, 214) 100% ); 
+    position: relative;
+    animation: animebar 4s infinite;
+    animation-delay: 2s;
+    border-radius: 4px;
+}
+.content-skill .skill .skill-bar .skill-per::before{
+    content: attr(per);
+    position: absolute;
+    padding: 3px 4px;
+    background-color: white;
+    top: -39px;
+    font-size: 18px;
+    right: 0;
+    transform: translateX(49%);
+    border-radius: 4px;
+}
+.content-skill .skill .skill-bar .skill-per::after{
+    content: "";
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    background-color: white;
+    top: -14px;
+    right: 0;
+    transform: translateX(49%) rotate(45deg);
+}
+@keyframes animebar{
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
+}
