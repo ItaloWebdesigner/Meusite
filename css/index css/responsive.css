@@ -47,7 +47,7 @@
         width: 30%;
         height: 100vh;
         grid-template-columns: 100%;
-        grid-template-rows: 20% auto auto auto auto auto;
+        grid-template-rows: 15% auto auto auto auto auto;
         position: fixed;
         transform: translate(-105%, 1.2%);
         background-color: rgb(34, 34, 34);
@@ -96,7 +96,7 @@
         width: 42%;
         height: 100vh;
         grid-template-columns: 100%;
-        grid-template-rows: 20% auto auto auto auto auto;
+        grid-template-rows: 15% auto auto auto auto auto;
         position: fixed;
         transform: translate(-105%, 1.2%);
         background-color: rgb(34, 34, 34);
@@ -145,7 +145,7 @@
         width: 52%;
         height: 100vh;
         grid-template-columns: 100%;
-        grid-template-rows: 20% auto auto auto auto auto;
+        grid-template-rows: 15% auto auto auto auto auto;
         position: fixed;
         transform: translate(-105%, 1.2%);
         background-color: rgb(34, 34, 34);
@@ -194,7 +194,7 @@
         width: 62%;
         height: 100vh;
         grid-template-columns: 100%;
-        grid-template-rows: 20% auto auto auto auto auto;
+        grid-template-rows: 15% auto auto auto auto auto;
         position: fixed;
         transform: translate(-105%, 1.2%);
         background-color: rgb(34, 34, 34);
