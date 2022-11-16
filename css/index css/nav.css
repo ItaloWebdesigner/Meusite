@@ -1,6 +1,6 @@
 .header{
     width: 100%;
-    height: 657px;
+    height: 857px;
     background: -webkit-linear-gradient(left, rgba(138, 43, 226, 1) 10%, rgba(15, 174, 214,1) 100%);  
     background: -webkit-linear-gradient(to right, rgba(138, 43, 226,1), rgba(15, 174, 214,1) 100% ); 
     z-index: 1;
@@ -33,7 +33,7 @@
 }
 .header-design{
     width: 100%;
-    height: 570px;
+    height: 770px;
     background: -webkit-linear-gradient(left, rgba(138, 43, 226, 1) 10%, rgba(15, 174, 214,1) 100%);  
     background: -webkit-linear-gradient(to right, rgba(138, 43, 226,1), rgba(15, 174, 214,1) 100% ); 
     z-index: 1;

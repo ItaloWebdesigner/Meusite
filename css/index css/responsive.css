@@ -45,7 +45,7 @@
     }
     .menu{
         width: 30%;
-        height: 564px;
+        height: 764px;
         grid-template-columns: 100%;
         grid-template-rows: 20% auto auto auto auto auto;
         position: fixed;
@@ -94,7 +94,7 @@
     }
     .menu{
         width: 42%;
-        height: 564px;
+        height: 764px;
         grid-template-columns: 100%;
         grid-template-rows: 20% auto auto auto auto auto;
         position: fixed;
@@ -143,7 +143,7 @@
     }
     .menu{
         width: 52%;
-        height: 564px;
+        height: 764px;
         grid-template-columns: 100%;
         grid-template-rows: 20% auto auto auto auto auto;
         position: fixed;
@@ -192,7 +192,7 @@
     }
     .menu{
         width: 62%;
-        height: 564px;
+        height: 764px;
         grid-template-columns: 100%;
         grid-template-rows: 20% auto auto auto auto auto;
         position: fixed;
