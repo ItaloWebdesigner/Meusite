@@ -12,11 +12,11 @@
     width: 90%;
     height: auto;
     display: grid;
-    transform: translateX(5%);
+    transform: translateX(5.8%);
     margin-top: 40px;
 }
 .container-card .container-content .content{
-    margin: 0px;
+    margin: 0px 20px 40px 20px;
 }
 .container-card .container-content .content .img-1{
     width: 100%;
@@ -24,28 +24,29 @@
     border-radius: 4px;
 }
 .container-card .container-content .content .img-2{
-    width: 70%;
-    height: 80%;
+    width: 100%;
+    height: auto;
     border-radius: 4px;
-    border: solid whitesmoke 2px;
 }
 .container-card .container-content .content .img-3{
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: auto;
     border-radius: 4px;
 }
 .container-card .container-content .content .img-4{
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: auto;
     border-radius: 4px;
 }
 .container-card .container-content .content .img-5{
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: auto;
     border-radius: 4px;
+    border: solid whitesmoke 2px;
 }
 .container-card .container-content .content .img-6{
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: auto;
     border-radius: 4px;
+    border: solid whitesmoke 2px;
 }

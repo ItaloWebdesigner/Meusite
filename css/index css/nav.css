@@ -1,6 +1,5 @@
 .header{
     width: 100%;
-    height: 757px;
     background: -webkit-linear-gradient(left, rgba(138, 43, 226, 1) 10%, rgba(15, 174, 214,1) 100%);  
     background: -webkit-linear-gradient(to right, rgba(138, 43, 226,1), rgba(15, 174, 214,1) 100% ); 
     z-index: 1;
@@ -8,7 +7,6 @@
 }
 .header-animation{
     width: 100%;
-    height: 600px;
     background-color: rgb(17, 17, 17);
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
@@ -24,7 +22,7 @@
     font-size: 50px;
     font-weight: 500;
     color: white;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 .container-info-header-a .text{
     font-size: 25px;
@@ -33,7 +31,6 @@
 }
 .header-design{
     width: 100%;
-    height: 755px;
     background: -webkit-linear-gradient(left, rgba(138, 43, 226, 1) 10%, rgba(15, 174, 214,1) 100%);  
     background: -webkit-linear-gradient(to right, rgba(138, 43, 226,1), rgba(15, 174, 214,1) 100% ); 
     z-index: 1;
@@ -369,7 +366,7 @@
 }
 #container-burger{
     position: fixed;
-    top: 32px;
+    top: 28px;
     right: 30px;
     cursor: pointer;
     z-index: 999;
@@ -497,7 +494,7 @@ input[type="checkbox"]{
 }
 .container-logo .logo{
     width: 200px;
-    height: 90px;
+    height: 80px;
     display: grid;
     grid-template-columns: 100%;
     text-align: center;
@@ -513,7 +510,8 @@ input[type="checkbox"]{
     color: transparent;
     text-transform: uppercase;
     letter-spacing: 5px;
-    margin-top: 5px;
+    margin-top: 4px;
+    margin-right: 15px;
 }
 .container-logo .logo .container-name .name2{
     font-size: 18px;
@@ -525,6 +523,6 @@ input[type="checkbox"]{
     background-image: -webkit-linear-gradient(to right, rgb(138, 43, 226), rgb(15, 174, 214) 100% ); 
     color: transparent;
     text-transform: uppercase;
-    margin-top: -11px;
-    margin-right: 3px;
+    margin-top: -13px;
+    margin-right: 18px;
 }
