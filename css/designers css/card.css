@@ -9,11 +9,8 @@
     color: white;
 }
 .container-card .container-content{
-    width: 90%;
     height: auto;
     display: grid;
-    transform: translateX(5.8%);
-    margin-top: 40px;
 }
 .container-card .container-content .content{
     margin: 0px 20px 40px 20px;
