@@ -1454,7 +1454,7 @@
 /* logo */
 @media screen and (min-width:1000px) {
     .container-logo-design .container-content{
-        grid-template-columns: 50% 50%;
+        grid-template-columns: 33.3% 33.4% 33.3%;
         transform: translateX(5.5%);
     }
     .container-logo-design{
@@ -1462,7 +1462,17 @@
         text-align: center;
     }
 }
-@media screen and (max-width:999px) and (min-width:300px) {
+@media screen and (max-width:999px) and (min-width:550px) {
+    .container-logo-design .container-content{
+        grid-template-columns: 50% 50%;
+        transform: translateX(6%);
+    }
+    .container-logo-design{
+        margin-top: 50px;
+        text-align: center;
+    }
+}
+@media screen and (max-width:549px) and (min-width:300px) {
     .container-logo-design .container-content{
         grid-template-columns: 100%;
         transform: translateX(6%);
