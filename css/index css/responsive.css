@@ -1488,6 +1488,7 @@
 @media screen and (min-width:1000px) {
     .container-post .container-content{
         grid-template-columns: 33.3% 33.4% 33.3%;
+        width: 90%;
         transform: translateX(5.5%);
     }
     .container-post{
